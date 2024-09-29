@@ -2,6 +2,17 @@
 
 Welcome to the Battle Tested Python CLI Cookiecutter! This project is designed to help you quickly and easily create a well-structured Python CLI application.
 
+- [Full Walkthrough Video Tutorial](https://youtu.be/ybPwP9DXyOo)
+- [Full Walkthrough Blog Tutorial](https://lazydev.school/python-cli-tutorial/)
+
+## Prerequisites
+
+You will need to have `cookiecutter` installed on your machine. You can install it via pip.  You want a global installation so you can use it in any directory.  The safe way to do this is to install it via pipx.
+
+```bash
+pip install pipx && pipx ensurepath && pipx install cookiecutter
+```
+
 ## Usage
 
 ```bash
