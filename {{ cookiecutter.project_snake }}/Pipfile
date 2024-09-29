@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 click = "*"
 dynaconf = "*"
-pycli = {file = ".", editable = true}
+{{ cookiecutter.project_snake }} = {file = ".", editable = true}
 
 [dev-packages]
 black = "*"

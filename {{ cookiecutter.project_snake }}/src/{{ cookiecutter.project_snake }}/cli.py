@@ -1,5 +1,5 @@
 import click
-from pycli import main
+from {{ cookiecutter.project_snake }} import main
 
 
 @click.group()
